@@ -1,1 +1,23 @@
- 
+# Ignore all files by default
+*
+
+# Allow specific files
+!.gitignore
+!README.md
+!app.py
+!run_license_report.bat
+
+# Ignore all CSV files
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment files
+.env
+venv/
