@@ -1,0 +1,6 @@
+@echo off
+echo Running License Report...
+python app.py
+echo.
+echo Process complete! Press any key to exit...
+pause
